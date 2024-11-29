@@ -1,0 +1,57 @@
+.MyNavBar {
+  background-color: #141414;
+}
+
+.Logo {
+  width: 6%;
+}
+
+.NetflixAvatar {
+  width: 35px;
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+}
+.fs-8 {
+  font-size: 0.5rem;
+}
+
+.px-6 {
+  padding-inline: 16rem;
+}
+
+.MyActionBar {
+  background-color: #141414;
+}
+
+.sliderSection {
+  background-color: #141414;
+}
+
+.slider-container .slider-item img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider-container {
+  height: 300px;
+}
+
+nav.slick__arrow,
+ul.slick-dots {
+  display: none !important;
+}
+
+.MyFooter {
+  background-color: #141414;
+}
+
+img {
+  transition: transform 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
