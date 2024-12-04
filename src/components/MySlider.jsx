@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
+import MovieDetails from "./MovieDetails";
+import { useNavigate } from "react-router-dom";
 
 class MySlider extends Component {
   state = {
@@ -81,7 +83,7 @@ class MySlider extends Component {
               <Slider {...settings}>
                 {this.state.films.map((film) => {
                   return (
-                    <div className="slider-item pe-2">
+                    <div key={film.imdbID} className="slider-item pe-2 py-2">
                       <img src={film.Poster} alt="" className="img-fluid object-fit-cover" />
                     </div>
                   );

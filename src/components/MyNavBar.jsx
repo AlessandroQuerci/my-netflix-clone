@@ -17,19 +17,19 @@ const MyNavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto ms-3">
-              <Nav.Link className="text-secondary fs-nav" href="#home">
+              <Nav.Link className="text-white fs-nav" href="#home">
                 Home
               </Nav.Link>
-              <Nav.Link active className="text-white fs-nav" href="#tvshows">
+              <Nav.Link className="text-white fs-nav" href="#tvshows">
                 TV Shows
               </Nav.Link>
-              <Nav.Link className="text-secondary fs-nav" href="#movies">
+              <Nav.Link className="text-white fs-nav" href="#movies">
                 Movies
               </Nav.Link>
-              <Nav.Link className="text-secondary fs-nav" href="#recentlyAdded">
+              <Nav.Link className="text-white fs-nav" href="#recentlyAdded">
                 Recently Added
               </Nav.Link>
-              <Nav.Link className="text-secondary fs-nav" href="#myList">
+              <Nav.Link className="text-white fs-nav" href="#myList">
                 My List
               </Nav.Link>
             </Nav>

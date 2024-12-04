@@ -38,11 +38,11 @@
 .slider-container {
   height: 300px;
 }
-
+/* 
 nav.slick__arrow,
 ul.slick-dots {
   display: none !important;
-}
+} */
 
 .MyFooter {
   background-color: #141414;
